@@ -1,0 +1,30 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    height:100%;
+    background-color:rgb(52, 52, 143);
+    color:white;
+    font-weight:900;
+    font-size:30px;
+}
+.col-1{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-end;
+}
+.col-2{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.col-3{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+}
